@@ -1,0 +1,4 @@
+interface:
+  display_name: "Preuve avant fait"
+  short_description: "Empêche les déclarations de travail terminé sans preuve."
+  default_prompt: "Vérifie les preuves avant de dire que c’est fait."

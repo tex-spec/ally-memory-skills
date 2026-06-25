@@ -1,0 +1,4 @@
+interface:
+  display_name: "Résumé quotidien"
+  short_description: "Transforme les échanges récents en résumé clair."
+  default_prompt: "Fais le résumé quotidien de ma mémoire."

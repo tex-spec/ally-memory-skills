@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mémoire vivante"
+  short_description: "Retrouve et alimente la mémoire vivante locale de l’Allié."
+  default_prompt: "Retrouve le fil dans ma mémoire vivante."

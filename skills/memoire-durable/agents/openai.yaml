@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mémoire durable"
+  short_description: "Propose et écrit ce qui mérite de rester en mémoire."
+  default_prompt: "Garde cette information en mémoire durable."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contexte avant réponse"
+  short_description: "Force la lecture du contexte quand le fil est flou."
+  default_prompt: "Lis le contexte avant de répondre."
