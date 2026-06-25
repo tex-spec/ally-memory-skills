@@ -23,9 +23,8 @@ https://github.com/tex-spec/ally-memory-skills
 Depuis la racine du projet client :
 
 ```bash
-git clone https://github.com/tex-spec/ally-memory-skills.git
-cd ally-memory-skills
-./install.sh
+git clone https://github.com/tex-spec/ally-memory-skills.git .ally-memory-pack
+bash .ally-memory-pack/install.sh
 ```
 
 Puis tester :

@@ -28,16 +28,25 @@ https://github.com/tex-spec/ally-memory-skills
 
 ## Ce que Claude Code doit faire
 
-1. Copier les skills dans `~/.claude/skills`.
-2. Créer `.ally-memory/` dans le projet.
-3. Copier les scripts dans `.ally-memory/scripts/`.
-4. Ajouter la règle mémoire dans `CLAUDE.md`.
-5. Tester :
+1. Cloner le repo dans un dossier temporaire ou dans le projet.
+2. Depuis la racine du projet client, lancer l'installateur du repo cloné.
+3. Copier les skills dans `~/.claude/skills`.
+4. Créer `.ally-memory/` dans le projet client.
+5. Copier les scripts dans `.ally-memory/scripts/`.
+6. Ajouter la règle mémoire dans `CLAUDE.md`.
+7. Tester :
 
 ```bash
 python3 .ally-memory/scripts/capture.py --text "Sophie veut lancer son atelier en septembre" --kind decision
 python3 .ally-memory/scripts/search.py "Sophie atelier"
 python3 .ally-memory/scripts/digest.py
+```
+
+Important : ne lance pas `./install.sh` après t'être placé dans le dossier `ally-memory-skills`, sinon `.ally-memory/` risque d'être créée dans le repo cloné au lieu du projet client. Reste dans la racine du projet client et lance plutôt :
+
+```bash
+git clone https://github.com/tex-spec/ally-memory-skills.git .ally-memory-pack
+bash .ally-memory-pack/install.sh
 ```
 
 ## Si la cliente veut comprendre
